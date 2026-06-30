@@ -1,30 +1,26 @@
 # Icaria Atelier
+We are a creative collective of architects, artists, engineers & filmmakers that integrate design, storytelling and technology to transform spaces into immersive experiences. Whether at a museum, an Expo pavilion or at an experience center, we aim to inspire a sense of wonder and connection
 
-Somos un colectivo creativo de arquitectos, artistas, ingenieros y cineastas que integramos diseño, narrativa y tecnología para transformar espacios en experiencias inmersivas. Ya sea en un museo, un pabellón de exposiciones o un centro de experiencias, nuestro objetivo es inspirar asombro y conexión.
+## Naming Convention
+- `ICARIA_[NAME]`: for internal projects and common components across projects.
+- `[PROJECT]_[NAME]`: for artifacts or modules specific to a concrete project.
 
-## Convención de nombres
-
-- `ICARIA_[NOMBRE]`: para proyectos internos y componentes comunes entre proyectos.
-- `[PROYECTO]_[NOMBRE]`: para artefactos o módulos específicos de un proyecto concreto.
-
-## Tipos de proyectos
-
-| Categoría | Descripción | Ejemplos |
+## Project Types
+| Category | Description | Examples |
 |---|---|---|
-| **VR / AR** | Experiencias de realidad virtual y aumentada para dispositivos como Oculus Quest, Samsung Gear VR y Magic Leap. | MoonWalk, kame-hame-ha-vr, panorama_meta_vr, ar-web-test |
-| **Juegos** | Videojuegos 2D/3D, tanto móviles como de escritorio, incluyendo juegos educativos basados en mapas. | MapPuzzle.gl, Bubbles-Annihilator, TerrainHillDefence |
-| **Aplicaciones web** | SPAs y servicios web con frontend en React y backends en Node.js, PHP o Rust. | chat-with-rtx-typescript-api, ReactPanoramaSevilla360, codeigniter-restaurant-api |
-| **Herramientas y utilidades** | Aplicaciones de escritorio y CLI para gestión de archivos, automatización del hogar e interacción con hardware. | Syncdrome, TapoController, CardLens, localPrintService |
-| **Librerías y componentes** | Módulos reutilizables para Unity o React publicados como paquetes independientes. | react-depth-3d-viewer, unity-gettext-lang-manager, ConsoleToGUI |
-| **Plugins** | Extensiones para plataformas de terceros. | woocommerce-oscommerce-sync |
+| **VR / AR** | Virtual and augmented reality experiences for devices such as Oculus Quest, Samsung Gear VR, and Magic Leap. | MoonWalk, kame-hame-ha-vr, panorama_meta_vr, ar-web-test |
+| **Games** | 2D/3D video games, both mobile and desktop, including map-based educational games. | MapPuzzle.gl, Bubbles-Annihilator, TerrainHillDefence |
+| **Web Applications** | SPAs and web services with React frontends and backends in Node.js, PHP, or Rust. | chat-with-rtx-typescript-api, ReactPanoramaSevilla360, codeigniter-restaurant-api |
+| **Tools and Utilities** | Desktop applications and CLIs for file management, home automation, and hardware interaction. | Syncdrome, TapoController, CardLens, localPrintService |
+| **Libraries and Components** | Reusable modules for Unity or React published as standalone packages. | react-depth-3d-viewer, unity-gettext-lang-manager, ConsoleToGUI |
+| **Plugins** | Extensions for third-party platforms. | woocommerce-oscommerce-sync |
 
-## Tecnologías principales
-
-| Tecnología | Uso |
+## Primary Technologies
+| Technology | Use |
 |---|---|
-| **TypeScript / React** | Frontend de aplicaciones web, SPAs y visualizaciones interactivas (Deck.gl, Pixi.js). |
-| **C# / Unity** | Juegos, experiencias VR/AR y herramientas de escritorio en .NET. |
-| **Rust** | Herramientas de línea de comandos y aplicaciones de escritorio de alto rendimiento. |
-| **JavaScript** | Aplicaciones web ligeras, prototipos rápidos y scripts de automatización. |
-| **PHP** | APIs REST con CodeIgniter y plugins para WordPress/WooCommerce. |
-| **Node.js** | Servicios backend y APIs. |
+| **TypeScript / React** | Frontend for web applications, SPAs, and interactive visualizations (Deck.gl, Pixi.js). |
+| **C# / Unity** | Games, VR/AR experiences, and desktop tools in .NET. |
+| **Rust** | Command-line tools and high-performance desktop applications. |
+| **JavaScript** | Lightweight web applications, rapid prototypes, and automation scripts. |
+| **PHP** | REST APIs with CodeIgniter and plugins for WordPress/WooCommerce. |
+| **Node.js** | Backend services and APIs. |
