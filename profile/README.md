@@ -1,6 +1,6 @@
 # Icaria Atelier
 
-Icaria Atelier es un estudio de desarrollo de software centrado en experiencias interactivas, herramientas de productividad y aplicaciones web. Nuestros proyectos abarcan desde juegos y experiencias de realidad virtual/aumentada hasta utilidades de escritorio y servicios backend.
+Somos un colectivo creativo de arquitectos, artistas, ingenieros y cineastas que integramos diseño, narrativa y tecnología para transformar espacios en experiencias inmersivas. Ya sea en un museo, un pabellón de exposiciones o un centro de experiencias, nuestro objetivo es inspirar asombro y conexión.
 
 ## Convención de nombres
 
