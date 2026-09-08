@@ -1,6 +1,6 @@
 # Icaria Atelier
 
-We are a creative collective of architects, artists, engineers & filmmakers that integrate design, storytelling and technology to transform spaces into immersive experiences. Whether at a museum, a cultural center, or public space, our work creates memorable moments that blend cutting-edge technology with artistic vision.
+We are a creative collective of architects, artists, engineers & filmmakers that integrate design, storytelling and technology to transform spaces into immersive experiences. Whether at a museum, a public space, or a bespoke installation, our work blends interactive technologies, spatial design, and narrative to create unforgettable moments.
 
 ## Naming Convention
 
@@ -13,122 +13,157 @@ We are a creative collective of architects, artists, engineers & filmmakers that
 ### CORALLIUM Series
 Immersive marine and interactive experiences featuring VR/AR environments, educational interactives, and real-time location systems.
 
-| Project | Type | Key Technologies |
+| Project | Type | Language |
 |---|---|---|
-| Corallium-Mangrove | Interactive Experience | Unity, C# |
-| Corallium_Juvenile | Interactive Experience | Unity, C# |
-| CORALLIUM_The_Device | Interactive Installation | Unity, C# |
-| CORALLIUM_2-10_IA01_Animal_Rescue | Educational Game | Unity, C# |
-| CORALLIUM_VR_Mockup | VR Prototype | Unity, C#, VR |
-| CORALLIUM_Seagrass_URP / HDRP | Rendering Pipeline | Unity, C#, Advanced Graphics |
-| CORALLIUM_Retail | Commerce Integration | React, Node.js |
-| CORALLIUM_MeetExpert | Interactive Meeting | React, WebRTC |
-| CORALLIUM_DivingExhibit | Immersive Exhibition | Unity, C# |
-| CORALLIUM_Coral_Resilience | Educational Experience | Unity, C# |
-| CORALLIUM_SYNC | Data Synchronization | Node.js |
-| CORALLIUM_RTLS-SEWIO_SIMULATOR | Real-time Location System | Simulation |
-| CORALLIUM_Camera_server | Media Server | Python, Node.js |
+| Corallium-Mangrove | Interactive Experience | C# |
+| Corallium_Juvenile | Interactive Experience | C# |
+| CORALLIUM_The_Device | Interactive Installation | C# |
+| CORALLIUM_2-10_IA01_Animal_Rescue | Educational Game | C# |
+| CORALLIUM_VR_Mockup | VR Prototype | C# |
+| CORALLIUM_Seagrass_URP | Rendering Pipeline | C# |
+| CORALLIUM_Seagrass_HDRP | Advanced Graphics | C# |
+| CORALLIUM_Retail | Commerce Integration | C# |
+| CORALLIUM_MeetExpert | Interactive Meeting | C# |
+| CORALLIUM_DivingExhibit | Immersive Exhibition | C# |
+| CORALLIUM_Coral_Resilience | Educational Experience | C# |
+| CORALLIUM_SYNC | Data Synchronization (GraphQL) | JavaScript |
+| CORALLIUM_Camera_server | Media Server | JavaScript |
+| CORALLIUM_RTLS-SEWIO_SIMULATOR | Real-time Location System | HTML |
+| CORALLIUM_Juvenile_OLD | Legacy Archive | C# |
 
 ### ILMI Series
 Large-scale immersive installations and interactive floor/simulator experiences.
 
-| Project | Type | Key Technologies |
+| Project | Type | Language |
 |---|---|---|
-| ILMI_WR0-201-IA01_Immersive_Energy_Experience.floor | Interactive Floor | Unity, C#, Real-time Tracking |
-| ILMI_WR0-201-IA01_Immersive_Energy_Experience.simulator | Simulator | Node.js, WebSockets |
-| ILMI_WR0-302-IA01_A_Seed_Interactive.interactive | Interactive Installation | Unity, C# |
-| ILMI_WR0-302-IA01_A_Seed_Interactive.tracking | Tracking System | Python, OpenCV |
-| ILMI_WR0-303-IA01_A_Body_Interactive | Motion-Capture Experience | Unity, C#, Motion Capture |
-| ILMI_IA02_Explorers_Toolbar_Underwater_Microscopy | Educational Tool | Unity, C# |
-| ILMI_Documentation | Project Documentation | Markdown, Docusaurus |
-| ILMI_Design | Design Assets & Systems | Figma, Design Files |
+| ILMI_WR0-201-IA01_Immersive_Energy_Experience.floor | Interactive Floor | ShaderLab |
+| ILMI_WR0-201-IA01_Immersive_Energy_Experience.simulator | Simulator | C# |
+| ILMI_WR0-201-IA01_Immersive_Energy_Experience.floorTouchDesigner | Touch Designer | Python |
+| ILMI_WR0-302-IA01_A_Seed_Interactive.interactive | Interactive Installation | C# |
+| ILMI_WR0-302-IA01_A_Seed_Interactive.tracking | Hand Tracking System | C# |
+| ILMI_WR0-303-IA01_A_Body_Interactive | Motion-Capture Experience | C# |
+| ILMI_IA02_Explorers_Toolbar_Underwater_Microscopy | Educational Tool | C# |
+| ILMI_Documentation | Project Documentation | HTML |
+| ILMI_Design | Design Assets & Systems | HTML |
+| ILMI_CMS | Content Management | JavaScript |
 
 ### Abu Dhabi Collection
 Cultural immersive experiences featuring VR and desktop applications.
 
-| Project | Type | Key Technologies |
+| Project | Type | Language |
 |---|---|---|
-| ABUDHABI_Oud_and_Pearls_VR | VR Experience | Unity, C#, VR Platforms |
-| ABUDHABI_Oud_and_Pearls_Desktop | Desktop Application | C#, .NET |
+| ABUDHABI_Oud_and_Pearls_VR | VR Experience | C# |
+| ABUDHABI_Oud_and_Pearls_Desktop | Desktop Application | C# |
 
 ### EFM Expeditions
 Exploratory VR experiences and control systems.
 
-| Project | Type | Key Technologies |
+| Project | Type | Language |
 |---|---|---|
-| EFM_VR_ExpeditionVoyager | VR Experience | Unity, C#, VR |
-| EFM_VRControlApplication | Control System | C#, .NET |
+| EFM_VR_ExpeditionVoyager | VR Experience | - |
+| EFM_VRControlApplication | Control System | - |
 
 ### Fish Detection & AI
 Machine learning and image processing projects.
 
-| Project | Type | Key Technologies |
+| Project | Type | Language |
 |---|---|---|
-| ICARIA_FISH_DETECTION | ML Model | Python, TensorFlow |
-| ICARIA_FISH_SEARCH_IMAGES | Image Database | Node.js, Database |
+| ICARIA_FISH_DETECTION | ML Detection System | Vue |
+| ICARIA_FISH_SEARCH_IMAGES | Image Database | Python |
 
 ### ICARIA Platform & Tools
 Core infrastructure, launchers, and shared utilities.
 
-| Project | Type | Key Technologies |
+| Project | Type | Language |
 |---|---|---|
-| ICARIA_LAUNCHER | Application Launcher | C#, .NET, Desktop |
-| ICARIA_Kiosk-Launcher | Kiosk Interface | C#, .NET |
-| ICARIA_CheckIn | Check-in System | Node.js, React |
-| ICARIA_CheckIn_APP | Mobile Check-in | React Native |
-| ICARIA_WEB | Corporate Website | React, TypeScript |
-| ICARIA_REACT_SITE | React Portal | React, TypeScript |
-| ICARIA_SPHERE | Immersive Display | Unity, C#, Real-time Rendering |
-| ICARIA_SW_BASE | Software Base | C#, .NET |
-| ICARIA_CAMERA_SERVER | Media Server | Node.js, FFmpeg |
+| ICARIA_LAUNCHER | Application Launcher | Rust |
+| ICARIA_CAMERA_SERVER | Media Server | Rust |
+| ICARIA_Kiosk-Launcher | Kiosk Interface | Kotlin |
+| ICARIA_CheckIn | Check-in System Backend | TypeScript |
+| ICARIA_CheckIn_APP | Mobile Check-in App | TypeScript |
+| ICARIA_WEB | Corporate Website | PHP |
+| ICARIA_REACT_SITE | React Portal | TypeScript |
+| ICARIA_SPHERE | Immersive Display | JavaScript |
+| ICARIA_SW_BASE | Software Base (Unity 6) | C# |
 
 ### Reusable Unity Packages (com.icaria.*)
 Published libraries for common functionality across experiences.
 
-| Package | Purpose |
-|---|---|
-| com.icaria.foundation | Core framework and utilities |
-| com.icaria.deviceio | Hardware integration and device communication |
-| com.icaria.localization | Multi-language support |
-| com.icaria.inputaction | Input handling system |
-| com.icaria.hands | Hand tracking and gesture recognition |
-| com.icaria.presence | Presence detection and awareness |
-| com.icaria.uitransitions | UI animation and transitions |
+| Package | Purpose | Language |
+|---|---|---|
+| com.icaria.foundation | Core framework and utilities | C# |
+| com.icaria.deviceio | Hardware integration and device communication | C# |
+| com.icaria.localization | Multi-language support | C# |
+| com.icaria.inputaction | Input handling system | C# |
+| com.icaria.hands | Hand tracking and gesture recognition (UDP) | C# |
+| com.icaria.presence | Presence detection and awareness | C# |
+| com.icaria.uitransitions | UI animation and transitions | C# |
+| com.icaria.ui | Themable UI Components (Design System) | C# |
+| com.icaria.video | Dual-player video playback with transitions | C# |
+| com.icaria.appshell | Kiosk application shell framework | C# |
+| com.icaria.overlayui | Runtime-built technical UI surfaces | C# |
 
 ### EFPRU Project
 Educational interactive experiences with backend infrastructure.
 
-| Project | Type | Key Technologies |
+| Project | Type | Language |
 |---|---|---|
-| EFPRU_Directus | Headless CMS | Directus, Node.js |
-| EFPRU_node_scripts | Automation Scripts | Node.js |
-| EFPRU_interactives | Interactive Content | React, TypeScript |
+| EFPRU_Directus | Headless CMS (Docker) | TypeScript |
+| EFPRU_node_scripts | Automation Scripts | JavaScript |
+| EFPRU_interactives | Interactive Content | TypeScript |
 
-## Primary Technologies
+### Demo & Reference
+Public-facing examples and documentation.
 
-| Technology | Use |
-|---|---|
-| **C# / Unity** | VR/AR experiences, interactive installations, games, and desktop applications (primary platform) |
-| **React / TypeScript** | Web applications, SPAs, interactive visualizations, and user interfaces |
-| **Node.js** | Backend services, APIs, real-time systems, and server infrastructure |
-| **Python** | Machine learning, image processing, and automation scripts |
-| **WebSockets** | Real-time communication for interactive experiences |
-| **FFmpeg / Media Services** | Video processing and media server infrastructure |
-| **.NET / C#** | Desktop applications and control systems |
-| **OpenCV** | Computer vision and tracking systems |
-| **TensorFlow** | Machine learning and AI models |
+| Project | Type | Language |
+|---|---|---|
+| demo-repository | GitHub Best Practices Example | HTML |
+
+## Technology Stack Summary
+
+### Primary Platforms
+- **Unity + C#**: VR/AR experiences, interactive installations, games, desktop applications
+- **React + TypeScript**: Web applications, SPAs, interactive visualizations
+- **Node.js**: Backend services, APIs, real-time systems, CMS integrations
+- **Python**: Machine learning, computer vision, automation
+
+### Specialized Technologies
+- **WebSockets**: Real-time communication for synchronized experiences
+- **FFmpeg / Media Services**: Video processing and streaming
+- **OpenCV + YOLO**: Computer vision and object detection
+- **TensorFlow + ConvNeXt**: Machine learning models
+- **Directus**: Headless CMS platform
+- **Touch Designer**: Visual programming for interactive installations
+- **Tauri**: Native cross-platform desktop apps
+- **Rust**: High-performance systems and servers
+
+### Hardware & Integration
+- **VR Platforms**: Oculus Quest, HTC Vive
+- **Tracking Systems**: RTLS (Real-Time Location System), Hand tracking, Motion capture
+- **Mobile**: Android, React Native
+- **Kiosk/Embedded**: Custom Android launchers
 
 ## Featured Experience Types
 
-- **🥽 VR/AR Experiences** - Immersive virtual and augmented reality environments for Oculus Quest, HTC Vive, and other platforms
-- **🎮 Interactive Installations** - Real-time motion tracking, gesture recognition, and immersive floor experiences
-- **📊 Educational Interactive Content** - Engaging learning experiences combining visualization with interactivity
-- **🌐 Web Applications** - Responsive web platforms, content management systems, and digital services
-- **🎯 Real-time Systems** - RTLS tracking, live synchronization, and networked experiences
-- **📱 Mobile Applications** - React Native check-in systems and companion apps
+- **🥽 VR/AR Experiences** - Immersive virtual and augmented reality environments
+- **🎮 Interactive Installations** - Real-time motion tracking, gesture recognition, immersive floors
+- **📊 Educational Interactive Content** - Engaging learning experiences with visualization
+- **🌐 Web Applications** - Responsive platforms, CMSs, digital services
+- **🎯 Real-time Systems** - RTLS tracking, live synchronization, networked experiences
+- **📱 Mobile Applications** - Check-in systems and companion apps
+- **🐠 AI & Computer Vision** - Fish detection, image processing, ML models
+
+## Repository Statistics
+
+- **Total Repositories**: 60+
+- **Primary Language**: C# (Unity ecosystem)
+- **Secondary Languages**: TypeScript, JavaScript, Python
+- **Project Categories**: 9 major series/categories
+- **Reusable Packages**: 11 com.icaria.* libraries
 
 ---
 
 **Organization**: ICARIA-ATELIER  
 **Focus**: Immersive Experience Design & Technology Integration  
-**Scale**: 50+ active repositories spanning VR, AR, interactive installations, web platforms, and supporting infrastructure
+**Scale**: 60+ repositories spanning VR, AR, interactive installations, web platforms, machine learning, and supporting infrastructure  
+**Latest Update**: September 2026
