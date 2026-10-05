@@ -1,10 +1,10 @@
 # Icaria Atelier
 
-We are a creative collective of architects, artists, engineers & filmmakers that integrate design, storytelling and technology to transform spaces into immersive experiences. Whether at a museum, a public space, or a bespoke installation, our work blends interactive technologies, spatial design, and narrative to create unforgettable moments.
+We are a creative collective of architects, artists, engineers & filmmakers that integrate design, storytelling and technology to transform spaces into immersive experiences. Whether at a museum, a public exhibition, a research environment, or a live installation, we create experiences that merge physical space, storytelling, and digital systems.
 
 ## Naming Convention
 
-- `ICARIA_[NAME]`: Internal projects and common components across projects.
+- `ICARIA_[NAME]`: Internal projects and shared components across the organization.
 - `[PROJECT]_[NAME]`: Artifacts or modules specific to a concrete project.
 - `com.icaria.[MODULE]`: Reusable Unity packages published as libraries.
 
@@ -17,8 +17,9 @@ Immersive marine and interactive experiences featuring VR/AR environments, educa
 |---|---|---|
 | Corallium-Mangrove | Interactive Experience | C# |
 | Corallium_Juvenile | Interactive Experience | C# |
-| CORALLIUM_The_Device | Interactive Installation | C# |
 | CORALLIUM_2-10_IA01_Animal_Rescue | Educational Game | C# |
+| CORALLIUM_The_Device | Interactive Installation | C# |
+| CORALLIUM_FP_Mockup | Prototype / Mockup | C++ |
 | CORALLIUM_VR_Mockup | VR Prototype | C# |
 | CORALLIUM_Seagrass_URP | Rendering Pipeline | C# |
 | CORALLIUM_Seagrass_HDRP | Advanced Graphics | C# |
@@ -26,10 +27,13 @@ Immersive marine and interactive experiences featuring VR/AR environments, educa
 | CORALLIUM_MeetExpert | Interactive Meeting | C# |
 | CORALLIUM_DivingExhibit | Immersive Exhibition | C# |
 | CORALLIUM_Coral_Resilience | Educational Experience | C# |
+| CORALLIUM_Coral_Ecology | Ecological Experience | C# |
 | CORALLIUM_SYNC | Data Synchronization (GraphQL) | JavaScript |
 | CORALLIUM_Camera_server | Media Server | JavaScript |
 | CORALLIUM_RTLS-SEWIO_SIMULATOR | Real-time Location System | HTML |
 | CORALLIUM_Juvenile_OLD | Legacy Archive | C# |
+| CORALLIUM_Mangrove_OLD | Legacy Archive | C# |
+| Icaria_mangrove_system | Marine Ecosystem System | C# |
 
 ### ILMI Series
 Large-scale immersive installations and interactive floor/simulator experiences.
@@ -43,6 +47,13 @@ Large-scale immersive installations and interactive floor/simulator experiences.
 | ILMI_WR0-302-IA01_A_Seed_Interactive.tracking | Hand Tracking System | C# |
 | ILMI_WR0-303-IA01_A_Body_Interactive | Motion-Capture Experience | C# |
 | ILMI_IA02_Explorers_Toolbar_Underwater_Microscopy | Educational Tool | C# |
+| ILMI_WR1-103-IA02_Explorers_Toolbar_Underwater_Microscopy | Educational Tool | C# |
+| ILMI_WR1-303-IA01_Explorers_Toolbar_Camera_Phase_1 | Camera Tool | C# |
+| ILMI_WR2-403-IA01_Tide_Timelapse | Interactive Experience | C# |
+| ILMI_WR2-406-IA01-Satellite_Monitoring | Monitoring Experience | C# |
+| ILMI_MockupCameras | Camera Mockup | C++ |
+| ILMI_MockupCameras_VR | VR Camera Mockup | C++ |
+| ILMI_TC001Max_Control | Control System | Python |
 | ILMI_Documentation | Project Documentation | HTML |
 | ILMI_Design | Design Assets & Systems | HTML |
 | ILMI_CMS | Content Management | JavaScript |
@@ -78,7 +89,7 @@ Core infrastructure, launchers, and shared utilities.
 |---|---|---|
 | ICARIA_LAUNCHER | Application Launcher | Rust |
 | ICARIA_CAMERA_SERVER | Media Server | Rust |
-| ICARIA_Kiosk-Launcher | Kiosk Interface | Kotlin |
+| ICARIA-Kiosk-Launcher | Kiosk Interface | Kotlin |
 | ICARIA_CheckIn | Check-in System Backend | TypeScript |
 | ICARIA_CheckIn_APP | Mobile Check-in App | TypeScript |
 | ICARIA_WEB | Corporate Website | PHP |
@@ -102,6 +113,9 @@ Published libraries for common functionality across experiences.
 | com.icaria.video | Dual-player video playback with transitions | C# |
 | com.icaria.appshell | Kiosk application shell framework | C# |
 | com.icaria.overlayui | Runtime-built technical UI surfaces | C# |
+| com.icaria.calibration | Keystone and projector calibration tools | C# |
+| com.icaria.rendering | URP rendering helpers | C# |
+| com.icaria.devtools | Debug and demo tooling for experiences | C# |
 
 ### EFPRU Project
 Educational interactive experiences with backend infrastructure.
@@ -155,15 +169,15 @@ Public-facing examples and documentation.
 
 ## Repository Statistics
 
-- **Total Repositories**: 60+
+- **Total Repositories**: 65+
 - **Primary Language**: C# (Unity ecosystem)
 - **Secondary Languages**: TypeScript, JavaScript, Python
-- **Project Categories**: 9 major series/categories
-- **Reusable Packages**: 11 com.icaria.* libraries
+- **Project Categories**: 10 major series/categories
+- **Reusable Packages**: 14 com.icaria.* libraries
 
 ---
 
 **Organization**: ICARIA-ATELIER  
 **Focus**: Immersive Experience Design & Technology Integration  
-**Scale**: 60+ repositories spanning VR, AR, interactive installations, web platforms, machine learning, and supporting infrastructure  
-**Latest Update**: September 2026
+**Scale**: 65+ repositories spanning VR, AR, interactive installations, web platforms, machine learning, and supporting infrastructure  
+**Latest Update**: October 2026
